@@ -11,6 +11,11 @@
 * 准备一个域名，并将A记录添加好。
 * [V2ray官方说明](https://www.v2ray.com/)，了解 TLS WebSocket 及 V2ray 相关信息
 * 安装好 wget
+yum -y install wget    ##ContOS Yum 安装 wget
+apt-get install wget   ##Debian Ubuntu 安装 wget
+
+yum update -y && yum install curl -y            ##Centos 系统安装 Curl 方法
+apt-get update -y && apt-get install curl -y    ##Ubuntu/Debian 系统安装 Curl 方法
 
 ### 安装/更新方式（h2 和 ws 版本已合并）
 Vmess+websocket+TLS+Nginx+Website

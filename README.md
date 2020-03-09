@@ -12,7 +12,7 @@
 * [V2ray官方说明](https://www.v2ray.com/)，了解 TLS WebSocket 及 V2ray 相关信息
 * 安装好 wget
 
-yum -y install wget    ##ContOS Yum 安装 wget
+yum -y install wget    ##CentOS Yum 安装 wget
 
 apt-get install wget   ##Debian Ubuntu 安装 wget
 
